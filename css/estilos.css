@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  width: 100%;
+  background: linear-gradient(rgba(122, 75, 75, 0.4),
+      rgba(224, 220, 220, 0.4)),
+    url(../images/fashion.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navegacion {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.barra {
+  width: 200px;
+  height: 70px;
+  float: left;
+}
+
+.logo {
+  width: 180px;
+  padding-top: 45px;
+  padding-left: 90px;
+  float: left;
+}
+
+.menu {
+  width: 500px;
+  height: 70px;
+  float: left;
+  padding-left: 80px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  padding-right: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover {
+  color: #b67f52;
+}
+
+.contenido {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+}
+
+.contenido img {
+  width: 250px;
+  padding-left: 57px;  
+  margin-top: 12%;    
+}
+
+.contenido .descripcion {
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+
+/* FORMULARIO DE REGISTRO */
+
+.formulario {
+  width: 240px;
+  height: 400px;
+  background: linear-gradient(to bottom, rgba(1, 166, 156, 0.5), rgb(129, 189, 184, 0.5));
+  position: absolute;
+  top: 100px;
+  left: 950px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.formulario h2 {
+  width: 220px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  background-color: rgba(1, 126, 250, .3);
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+
+.formulario input {
+  margin-top: 30px;
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border-bottom: 1px, solid, rgb(12, 201, 43);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario input:focus {
+  outline: none;
+}
+
+
+::placeholder {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.boton {
+  width: 240px;
+  height: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background: rgba(1, 202, 252, .6);
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.boton:hover {
+  background: rgba(1, 41, 90, .5);
+  color: #fff;
+}
+
+.boton a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.formulario .registro {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+.formulario .registro a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+.redes {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.iconos a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.iconos {
+  color: #fff;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 5px;
+  opacity: .7;
+  transition: 0.3s ease;
+}
+
+.iconos:hover {
+  opacity: 1;
+}

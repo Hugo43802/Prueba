@@ -1,0 +1,404 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #37485a;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    /* padding-top: 5px; */
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  barra-lateral header img {
+    width: 160px;
+    padding-top: 20px;
+  }
+  
+  .barra-lateral {
+    position: fixed;
+    top: 0;
+    width: 18%;
+    height: 100%;
+    background: rgba(20, 167, 179, 1);
+    transition: all 0.5s ease;
+  }
+  
+  .barra-lateral header {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    background: rgba(5, 132, 146, 1);
+    user-select: none;
+  }
+  
+  .barra-lateral ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: 15px;
+    color: #fff;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(144, 190, 109, 0.1);
+    border-bottom: 2px solid rgb(87, 117, 144);
+    transition: 0.4s;
+  }
+  
+  ul li:hover a {
+    padding-left: 50px;
+    background-color: rgba(67, 170, 139, 0.5);
+  }
+  
+  .barra-lateral ul a i {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  
+  section {
+    background: linear-gradient(rgba(144, 190, 109, 0.4), rgba(249, 199, 79, 0.4)),
+      url(../src/) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    height: 100vh;
+  }
+
+/* TABLA CON DIVS */
+.btn_eliminar
+{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn_editar
+{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.btn_eliminar:hover
+{
+    /* Darker background on mouse-over */
+    background-color: RoyalBlue;
+    transform: scale(1.2);
+
+    -webkit-box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+}
+
+.btn_editar:hover
+{
+    /* Darker background on mouse-over */
+    background-color: RoyalBlue;
+    transform: scale(1.2);
+
+    -webkit-box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+}
+
+#table {
+    display: table;
+    padding: 5px;
+    float: right;
+    width: calc(100% - 19%);
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+}
+.col { /*COLUMNAS*/
+    display: table-row;
+    padding: 5px;
+    text-align: center;
+}
+.head{
+    display: table-cell;
+    padding: 5px;
+    width: 150px;
+    background-color: rgba(75, 82, 177, 0.726);
+    border: 2px solid #00718b;
+    text-align: center;
+
+    margin: 5px;
+}
+.cel { /*FILAS*/
+    display: table-cell;
+    padding: 5px;
+    width: 150px;
+    background-color: rgba(75, 82, 177, 0.3);
+    border: 2px solid #00718b;
+    margin: 5px;
+}
+.foot{
+    display: table-cell;
+    padding: 5px;
+    width: 150px;
+    margin: 5;
+    
+}
+
+/* BOTONES DE TABLA */
+
+
+
+
+
+/* FORMULARIO DE VENTA */
+.txt_division
+{
+    color: aliceblue;   
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+}
+
+.form_text
+{
+    color: aliceblue;   
+    font-family: 'Raleway', sans-serif;
+}
+
+.Cont_Datos
+{
+    
+    padding: 15px;
+    margin: 15px;
+    height: 100%;
+    float: left;
+    width: calc(60% - 70px);
+    text-align: center;
+}
+
+.seccion_datos
+{
+    display: grid;
+    background: #37485a;
+    width: 100%;
+    height: auto;
+}
+
+.input_producto
+{
+    text-align: center;
+    width: 270px;
+    height: 40px;
+
+    border: 3px solid #00718b;
+    background: #37485a;
+    border-radius: 4px;
+
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    color: aliceblue;
+    
+}
+
+.valor_producto
+{
+    padding: 5px;
+    margin-top: 3%;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+
+.info_producto
+{
+    
+    height: calc(100% - 35px);
+    width: calc(40% - 20px);
+    /* border-radius: 10px; */
+    background-color: rgba(188, 207, 211, 0.616);
+    float: right;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.img_producto
+{
+    margin: 15px;
+    content: url(../images/Ej.Producto1.jpg);
+    width: 250px;
+    height: 250px;
+}
+
+.desc_producto
+{
+    background: #24303c;
+    margin: 1px 30px;
+    width: calc(100% - 60px);
+    height: calc(40% - 95px);
+    border-radius: 15px;
+    color:antiquewhite;
+}
+
+/* FORM DEL COMPRADOR */
+
+.datos_comprador
+{
+    text-align: center;
+    float: left;
+    width: calc(100% + 5px);
+    background-color:  #37485a;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input_cliente
+{
+    text-align: center;
+    width: 270px;
+    height: 35px;
+
+    border: 3px solid #00718b;
+    background: #37485a;
+    border-radius: 4px;
+
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    color: aliceblue;
+
+}
+
+#nombre_cliente
+{
+    margin-left: 80px;
+}
+
+#apellido_cliente
+{
+    margin-left: 80px;
+}
+
+#idc_cliente
+{
+    margin-left: 45px;
+}
+
+.nb_cliente
+{
+    padding-top: 10px;
+}
+
+.apll_cliente
+{
+    padding-top: 10px;
+}
+
+.id_cliente
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#btn_registro
+{
+    width: 30%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background: #00718b;
+    border : none;
+    padding: 12px;
+    color : white;
+    /* margin: 16px 0; */
+    font-size: 16px;
+
+}
+
+#btn_registro:hover
+{
+    background: #05b8e0;
+    border-radius: 25px;
+
+    -webkit-box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+}
+
+/* HEADER GENERAL */
+
+.contenedor_header
+{
+    float: right;
+    width: calc(100% - 18%);
+    /* background: rgba(255,255,255,0.3); */
+    text-align: center;
+}
+
+#Logo_header
+{
+    content: url(../images/Tipo.png);
+    height: 75px;
+    padding-left: calc(70% / 2);
+    padding-bottom: 5px;
+}
+
+/*Botón*/
+
+#myBtn
+{
+    font-weight: bold;
+    background: #00718b;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#myBtn:hover
+{
+    background: #05b8e0;
+    border-radius: 25px;
+    
+    -webkit-box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 52px -1px rgba(0,0,0,0.75);
+}
+.buscar {
+    float: right;
+    width: calc(100% - 19%);
+}
+header input[type=text] {
+  
+    float:left;
+    display: block;
+    text-align: center;
+    width: calc(70% - 20px);
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid #00718b;
+    background: #37485a;
+    border-radius: 4px;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px inset, rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
+    color:#fff;
+  }
