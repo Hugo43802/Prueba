@@ -9,7 +9,7 @@ function Index() {
   let history = useHistory();
   const responseGoogle = (response) => {
     console.log(response.profileObj.email);
-    history.push("/Usuarios");
+    history.push("https://compraequitienda.herokuapp.com/usuarios");
   };
   return (
     <div className="Index">
